@@ -1,0 +1,21 @@
+generated: '2026-07-21'
+method: searched
+source: live probe of /.well-known/ on wonderful.ai hosts
+host: https://www.wonderful.ai
+documents:
+- path: /.well-known/security.txt
+  status: 200
+  file: wonderful-security.txt
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+notes: >-
+  Wonderful publishes an RFC 9116 security.txt (Contact: security@wonderful.ai).
+  No public OIDC/OAuth discovery, API catalog, or ai-plugin surface. The developer
+  docs at docs.wonderful.ai redirect to app.wonderful.ai/docs/auth (login-gated);
+  api.wonderful.ai resolves but returns 404 at the root. No public OpenAPI found.

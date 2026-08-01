@@ -1,8 +1,18 @@
 aid: wonderful
 name: Wonderful
-description: 'Wonderful is a company surfaced as a portfolio company of bessemer-venture-partners, index-ventures,
-  insight-partners, ivp and added to the API Evangelist network as a stub for enrichment. Sector: ai-ml.
-  This profile is a lead awaiting the enrichment pipeline.'
+description: >-
+  Wonderful is an applied-AI company building an enterprise AI platform for
+  critical, high-volume workflows. It combines an AI platform (run any model,
+  any modality, any use case, fully governed) with local deployment teams and a
+  strategic partnership model to help large organizations accelerate AI
+  adoption. Wonderful powers agentic automation for enterprises such as national
+  telecom operators, energy providers, and financial-services firms, covering
+  customer-service containment, collections across millions of clients, internal
+  IT automation, and end-to-end billing resolution, with reported outcomes like
+  a 91.5% containment rate across millions of customers. Backed by Bessemer
+  Venture Partners, Index Ventures, Insight Partners, and IVP. Wonderful sells an
+  enterprise platform with deployment services rather than a self-serve public
+  developer API; its developer documentation is login-gated.
 url: https://raw.githubusercontent.com/api-evangelist/wonderful/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,12 +23,30 @@ x-backed-by:
 - ivp
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/wonderful.png
 tags:
 - Company
 - Ai Ml
+- Enterprise AI
+- AI Agents
+- AI Platform
+- Automation
+- Customer Service
+- Applied AI
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -28,3 +56,22 @@ maintainers:
 common:
 - type: Website
   url: https://www.wonderful.ai/
+- type: Blog
+  url: https://www.wonderful.ai/blog
+- type: PrivacyPolicy
+  url: https://www.wonderful.ai/legal/privacy
+- type: SecurityTxt
+  url: well-known/wonderful-security.txt
+- type: WellKnown
+  url: well-known/wonderful-well-known.yml
+- type: Security
+  url: https://www.wonderful.ai/.well-known/security.txt
+- type: VulnerabilityDisclosure
+  url: security/wonderful-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/wonderful-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 4
+  pass: local-v1
