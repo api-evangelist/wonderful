@@ -1,0 +1,26 @@
+# Front Door AI Index — wonderful — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: wonderful
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.wonderful.ai
+  final_host: www.wonderful.ai
+  ownership: own
+  owner: wonderful
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 24
+  host_score: 24
+  density: 37.68
+  words: 637
+  tiers:
+    agentic: 0
+    core: 24
+    model: 0
+  ambiguous: 2
+  top_terms:
+    AI: 24
+    intelligence: 2
