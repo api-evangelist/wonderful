@@ -1,9 +1,26 @@
 generated: '2026-10-13'
 method: searched
 checked:
+- https://aws.amazon.com/marketplace/
 - https://azuremarketplace.microsoft.com/
 marketplace_apps: []
 edges:
+- partner_name: AWS Marketplace
+  partner: amazon-web-services
+  partner_match: aggregator
+  type: marketplace
+  marketplace: aws-marketplace
+  channel: distribution
+  relationship: distribution-channel
+  direction: third-party
+  evidence: https://aws.amazon.com/marketplace/seller-profile?id=seller-ck6rkyf4za7fm
+  listing_count: 2
+  apps:
+  - Wonderful
+  - Wonderful-Metered
+  seller_name: Wonderful
+  detected_by: sweep-cloud-marketplaces.py
+  detected: '2026-10-19'
 - partner_name: Microsoft Azure Marketplace
   partner: microsoft-azure
   partner_match: aggregator
