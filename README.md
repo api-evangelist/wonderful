@@ -64,6 +64,91 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Wonderful is a company surfaced as a portfolio company of bessemer-venture-partners, index-ventures, insight-partners, ivp and added to the API Evangelist network as a stub for enrichment. Sector: ai-ml. This profile is a lead awaiting the enrichment pipeline.
+Wonderful is an applied-AI company building an enterprise AI platform for critical, high-volume workflows. It combines an AI platform (run any model, any modality, any use case, fully governed) with local deployment teams and a strategic partnership model to help large organizations accelerate AI adoption. Wonderful powers agentic automation for enterprises such as national telecom operators, energy providers, and financial-services firms, covering customer-service containment, collections across millions of clients, internal IT automation, and end-to-end billing resolution, with reported outcomes like a 91.5% containment rate across millions of customers. Backed by Bessemer Venture Partners, Index Ventures, Insight Partners, and IVP. Wonderful sells an enterprise platform with deployment services rather than a self-serve public developer API; its developer documentation is login-gated.
 
-Backed by: bessemer-venture-partners, index-ventures, insight-partners, ivp — https://www.wonderful.ai/
+**Areas:** Company · Artificial Intelligence · Enterprise AI · AI Agents · AI Platform · Automation · Customer Service · Applied AI
+
+## Wonderful on APIs.io
+
+Everything profiled for Wonderful is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/wonderful/](https://apis.io/providers/wonderful/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [wonderful](https://apis.io/servers/wonderful/wonderful/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Wonderful Domain Security](https://apis.io/security/wonderful/wonderful-domain-security/)
+- [Wonderful Vulnerability Disclosure](https://apis.io/security/wonderful/wonderful-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.wonderful.ai/)
+- [Blog](https://www.wonderful.ai/blog)
+- [Security](https://www.wonderful.ai/.well-known/security.txt)
+- [Privacy policy](https://www.wonderful.ai/legal/privacy)
+
+## API Evangelist rating
+
+**Kin Score 8.3** — minimal · rubric 0.25.0 · scored 2026-10-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 51.7 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 5.3 |
+| Developer ergonomics | 2.4 |
+| Access clarity | 10.5 |
+
+**Agent readiness 12.2** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | verified |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 14.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/wonderful/](https://apis.io/providers/wonderful/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Wonderful: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/wonderful/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
